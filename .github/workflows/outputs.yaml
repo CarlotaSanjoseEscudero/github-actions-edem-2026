@@ -1,6 +1,7 @@
 name: Welcome to the party (outputs)
 on:
-  workflow_dispatch:jobs:
+  workflow_dispatch:
+jobs:
   say_hello:
     name:	"Let's greet the user!" 
     runs-on: ubuntu-latest  
